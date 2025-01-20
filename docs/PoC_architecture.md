@@ -9,24 +9,27 @@
 
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#FF9800', 'lineColor': '#FF9800' }}}%%
 flowchart RL
- subgraph Datapipeline["D A T A  P I P E L I N E"]
+    linkStyle default stroke:#FF9800,stroke-width:2px,fill:none;
+
+    subgraph Datapipeline["D A T A  P I P E L I N E"]
         n12["Data Transformators"]
         n10["Data Integrator"]
         DL["Data Loader <br>&amp; Exporter"]
         ST[("Filestore<br>/temp/")]
-  end
- subgraph Services["O P E R A T I O N S"]
+    end
+    subgraph Services["O P E R A T I O N S"]
         n15["Reverse Proxy <br>&amp;<br> Load Balancer"]
         opsconf[("Data<br>pipeline<br>repo")]
         id{"ID &amp; Access<br>Mgmt"}
-  end
- subgraph Apps["Apps"]
+    end
+    subgraph Apps["Apps"]
         s3["Form Data"]
-  end
- subgraph Development["Development"]
+    end
+    subgraph Development["Development"]
         ide["IDE"]
-  end
+    end
     s3 ~~~ opsconf
     n15 <-.-> n10
     n10 --> ST
@@ -40,36 +43,25 @@ flowchart RL
     Apps -- POST --> n15
     Store["Store"]
 
-     n12:::Aqua
-     n12:::procs
-     n10:::Sky
-     n10:::Aqua
-     n10:::in-out
-     DL:::Aqua
-     DL:::out-in
-     ST:::Ash
-     n15:::Sky
-     n15:::decision
-     opsconf:::Aqua
-     id:::Rose
-     s3:::Ash
-     s3:::div-proc
-     ide:::Peach
-     ide:::loop-limit
-     Datapipeline:::Aqua
-     IDP:::Rose
-     IDP:::Ash
-     n16:::Ash
-     Store:::Ash
-    classDef Peach stroke-width:1px,stroke-dasharray:none,stroke:#FBB35A,fill:#FFEFDB,color:#8F632D
-    classDef Rose stroke-width:1px,stroke-dasharray:none,stroke:#FF5978,fill:#FFDFE5,color:#8E2236
-    classDef Sky stroke-width:1px,stroke-dasharray:none,stroke:#374D7C,fill:#E2EBFF,color:#374D7C
-    classDef Aqua stroke-width:1px,stroke-dasharray:none,stroke:#46EDC8,fill:#DEFFF8,color:#378E7A
-    classDef Ash stroke-width:1px, stroke-dasharray:none, stroke:#999999, fill:#EEEEEE, color:#000000
-    style Datapipeline color:#616161,fill:#C8E6C9,stroke:none
-    style Apps color:#616161,fill:#FFF9C4,stroke:#FFD600
-    style Services color:#616161,fill:#BBDEFB,stroke:none
-    style Development color:#616161,fill:#FFF9C4,stroke:none
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef Peach fill:#FFEFDB,stroke:#FBB35A,color:#8F632D,stroke-width:2px;
+    classDef Rose fill:#FFDFE5,stroke:#FF5978,color:#8E2236,stroke-width:2px;
+    classDef Sky fill:#E2EBFF,stroke:#374D7C,color:#374D7C,stroke-width:2px;
+    classDef Aqua fill:#DEFFF8,stroke:#46EDC8,color:#378E7A,stroke-width:2px;
+    classDef Ash fill:#EEEEEE,stroke:#999999,color:#000000,stroke-width:2px;
+
+    class n12,DL Aqua;
+    class n10 Sky,Aqua;
+    class ST,s3,n16,Store,IDP Ash;
+    class n15 Sky;
+    class opsconf Aqua;
+    class id Rose;
+    class ide Peach;
+
+    style Datapipeline fill:#e0f7fa,stroke:#006064,color:#006064;
+    style Apps fill:#fff3e0,stroke:#e65100,color:#e65100;
+    style Services fill:#e8eaf6,stroke:#1a237e,color:#1a237e;
+    style Development fill:#fce4ec,stroke:#880e4f,color:#880e4f;
 ```
 
 ---
