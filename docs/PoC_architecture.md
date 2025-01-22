@@ -91,10 +91,10 @@ flowchart RL
 flowchart
 subgraph Risks
 direction RL
-R1["Security Limitations"]:::highRisk
-R2["Scalability Issues"]:::medRisk
+R1["Minimal Security Coverage"]:::highRisk
+R2["Non-Scalable"]:::medRisk
 R3["Performance Constraints"]:::lowRisk
-R5["Incomplete Features"]:::lowRisk
+R5["Incomplete Feature set"]:::lowRisk
 end 
 
 subgraph Benefits
