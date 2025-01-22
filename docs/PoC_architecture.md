@@ -38,7 +38,7 @@ flowchart RL
  subgraph Development["Development"]
         ide["💻 Development<br>Environment"]
   end
-    %%n15 --> ST
+    datagw ----> ST
     n10 --> ST
     ST --> n12 & DL
     n12 --> ST
@@ -82,6 +82,7 @@ flowchart RL
     style Apps fill:#fff3e0,stroke:#FFD600,color:#FF6D00
     style Services fill:#e8eaf6,stroke:#BBDEFB,color:#1a237e
     style Development fill:#fce4ec,stroke:#FFCDD2,color:#880e4f
+
 ```
 
 ---
