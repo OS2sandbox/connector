@@ -10,7 +10,7 @@ Some (biased) vendor descriptions of the concept:
 - https://www.datafold.com/blog/the-modern-data-stack-open-source-edition
 
 ## Architecture is still being discussed / developed
-Please refer to [this issue](https://github.com/OS2sandbox/connector/issues/7) for the current state and some work in progress diagrams.
+Please refer to [this issue](https://github.com/OS2sandbox/connector/issues/7) and this [Pull Request](https://github.com/OS2sandbox/connector/pull/11), for the current state and some work in progress diagrams.
 
 ## Roadmap
 🚧 is still under construction
