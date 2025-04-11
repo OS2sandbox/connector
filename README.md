@@ -5,12 +5,9 @@
 *"connector" is a working title and is subject to change*
 
 Sandbox project for collaboration on a modern, open data workflow architecture for data integrations.
-Some (biased) vendor descriptions of the concept:
-- https://airbyte.com/blog/modern-open-data-stack-four-core-tools
-- https://www.datafold.com/blog/the-modern-data-stack-open-source-edition
 
 ## Architecture is still being discussed / developed
-Please refer to [this issue](https://github.com/OS2sandbox/connector/issues/7) and this [Pull Request](https://github.com/OS2sandbox/connector/pull/11), for the current state and some work in progress diagrams.
+Please refer to [this issue](https://github.com/OS2sandbox/connector/issues/7), for the current state and some work in progress diagrams.
 
 ## Roadmap
 🚧 is still under construction
