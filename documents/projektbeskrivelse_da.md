@@ -4,14 +4,16 @@
 
 OS² oplever en stigende efterspørgsel på løsninger, der kan håndtere data og arbejdsgange omkring data på en effektiv og sikker måde. Ligeledes efterspørges der metoder og værktøjer der kan minimere risisci ved benyttelse af flere specialistleverandører. 
 
-Og det er sandt at der er en række risisci forbundet med at kaste sig ud i sådan et projekt og OS² vil med dette projekt tilbyde at mitigere disse for sine medlemmer og gå forrest med rådgivning om metoder til transparent og effektiv leverandørstyring.
+Vi oplever også at leverandører påpeger udfordringer med at tilbyde moderne, distribuerede services til vores medlemmer, uden at omkostningerne stiger uforholdsmæssigt.
+
+Og det er sandt at der er en række risisci forbundet med at kaste sig ud i sådan et projekt og OS² vil med dette projekt tilbyde at mitigere disse for sine medlemmer og gå forrest med rådgivning om metoder til at komme i mål med transparente og effektive moderne løsninger.
 
 ## Rationale
 
 Det er ikke formålstjeneligt, at danske myndigheder belastes økonomisk med udvikling af flere unikke danske datainfrastrukturer, hver gang der skal bruges et nyt dataprodukt.
-OS² vil vise, hvordan man kan drage fordel af anerkendt og tidssvarende faglig viden inden for projektledelse.
+OS² vil vise, hvordan man kan drage fordel af anerkendt og tidssvarende faglig viden inden for projektledelse og software udviklings praksis.
 På den måde kan vi styre vores medlemmer uden om risikable bias som _exceptionalismebias_[¹](#risici-i-projekter) og afledte låse, der kan binde projekter uhensigtsmæssigt til teknologier, leverandører eller enkeltpersoner.
-på den måde kan vi i fællesskab undgå at vores medlemmers handlefrihed bliver lammet.
+På den måde kan vi i fællesskab undgå at vores medlemmers handlefrihed bliver lammet.
 
 Dette kan løses ved at bygge på internationale open source erfaring med genbrug af open source komponenter der lever op til moderne nationale og internationale arkitekturprincipper[²](#arkitektur).
 
@@ -61,16 +63,10 @@ Projektet vil blive sammensat som en cloud-native løsning med en deklarativ kon
 
 Hvor skal projektet etableres?
 
-Projektet vil blive etableret i kommunens IT-afdeling, med mulighed for at udvide til andre offentlige institutioner og organisationer, der har behov for en lignende løsning.
-Hvordan har vi tænkt os, at projektet skal være/se ud – og hvordan kommer vi derhen?
-
-Projektet vil blive udviklet som en cloud-native løsning med en deklarativ konfiguration, der gør opsætning og vedligeholdelse nemmere. Vi vil anvende flersproget support og indbygget robusthed med automatiske genforsøg, tidsbegrænsninger og kredsløbsafbrydere. For at nå målet vil vi følge en agil udviklingsmetode, hvor vi løbende tester og forbedrer løsningen baseret på feedback fra brugerne.
-Hvornår vil vi gennemføre projektet?
+Projektets kildekode og dokumentation vil blive etableret i OS²s sandkasse, med mulighed for at udvide til andre offentlige institutioner og organisationer, der har behov for en lignende løsning. Projektet vil blive udviklet som en cloud-native løsning med en deklarativ konfiguration, der gør opsætning og vedligeholdelse nemmere. Vi vil anvende flersproget support og indbygget robusthed med automatiseret , tidsbegrænsninger og kredsløbsafbrydere. For at nå målet vil vi følge en agil udviklingsmetode, hvor vi løbende tester og forbedrer løsningen baseret på feedback fra brugerne.
 
 Projektet vil blive gennemført over en periode på 12 måneder, med milepæle hver tredje måned for at sikre, at vi er på rette spor og kan justere planen efter behov.
-Hvordan sikrer vi den efterfølgende drift af projektet?
 
-Den efterfølgende drift af projektet vil blive sikret gennem løbende vedligeholdelse og support fra kommunens IT-afdeling. Vi vil også etablere en dokumentations- og træningsplan for at sikre, at alle relevante medarbejdere er i stand til at bruge og vedligeholde løsningen.
 
 #### Risici i projekter
 
