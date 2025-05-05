@@ -19,7 +19,7 @@ Dette kan løses ved at bygge på internationale open source erfaring med genbru
 
 ## Løsningsbeskrivelse
 
-Løsningen skal kunne modtage eller hente data og aflevere dem til et eller flere datamål. I processen skal der understøttes standardiserede arbejdsgange som f.eks godkendelses trin, kald af eksterne snitflader samt både liniære enkelte og flere samtidige databehandlinger. Løsningen skal ikke bindes til et enkelt softwareprojekt eller løsning, men sammensættes så den er genanvendelig på tværs af OS²s projekt portefølje.
+Løsningen skal kunne modtage eller hente data og aflevere dem til et eller flere datamål. I processen skal der understøttes standardiserede arbejdsgange som f.eks godkendelses trin, kald af eksterne snitflader samt både liniære enkelte og flere samtidige databehandlinger. Løsningen skal ikke bindes til et enkelt udviklingssprog eller leverandør, men sammensættes så den er genanvendelig på tværs af OS²s projekt portefølje. 
 
 ## Strategiske forretningsmål
 
@@ -37,13 +37,17 @@ OS² vil med sin rådgivning til projektet arbejde ud fra en række overordnede 
  - Løsningen sammensættes af allerede eksisterende bredt anvendte open source komponenter, der har tilknyttet robuste vedligeholdelses organisationer.
  - Løsningen vil udnytte den internationale erfaring der ligger i CNCFs modenhedsmodeller[³](#modenhedsmodel)
  - Løsningen bygges ud fra best practice principper for moderne skalerbare applikationer[⁴](#12Factor)
+ - Løsningen bygges med hensyntagen til forretningsudviklere, så den kan abstrahere de tekniske udfordringer der kan være med distribuerede løsninger. 
+ - Arkitekturen skal understøtte udvikling af moderne, distribuerede løsninger uden at udvikleren skal bekymre sig om kompleksiteten ved infrastrukturen bagved
 
+
+Primært levere eksempler og faste kode skabeloner samt snitflademodeller istedet for alene at være afhængig af komplekt teknisk dokumentation og beskrivelser.
 
  og kommer til at bestå af genbrugelig komponenter. 
 
  til at drastisk forenkle udviklingen af nye dataprodukter.
 
- Ved at abstrahere og ensrette den underliggende infrastruktur skal udvikleren kun fokusere på forretningslogik og kan frit vælge blandt alle  Dette gør leverancer ved eksterne leverandører ensartede og hurtigere at lave og sætter barren på et nivau så der åbnes for egenuvikling af dataprodukter blandt de deltagende myndigheders egne digitaliserings medarbejdere. Løsningen stiller ikke krav om kompetencer i enkelte udviklingssprog, men understøtter bredt de mest anvendte moderne udviklingssprog. 
+ Ved at abstrahere og ensrette den underliggende infrastruktur skal udvikleren kun fokusere på forretningslogik og kan frit vælge blandt de mest andvendte moderne udviklingssprog.  Dette gør leverancer ved eksterne leverandører ensartede og hurtigere at lave og sætter barren på et nivau så der åbnes for egenuvikling af dataprodukter blandt de deltagende myndigheders egne digitaliserings medarbejdere. Løsningen stiller ikke krav om kompetencer i enkelte udviklingssprog, men understøtter bredt de mest anvendte moderne udviklingssprog. 
 
 
 ## Hvem vil vi lave det for – hvem er målgruppen?
