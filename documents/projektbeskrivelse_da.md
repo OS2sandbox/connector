@@ -89,3 +89,9 @@ Den efterfølgende drift af projektet vil blive sikret gennem løbende vedligeho
 #### 12factor
 
 - [*The Twelve-Factor Manifesto* - Wiggins, A., & Keith, A. (2011). The Twelve-Factor App.](https://github.com/twelve-factor/twelve-factor)
+
+#### Tekniske guides
+
+- [*Microsoft Learn* - Microservices made easy with Dapr](https://learn.microsoft.com/en-us/shows/the-launch-space/microservices-made-easy-with-dapr)
+
+- [*Dapr University* - Dapr 101 & Dapr Workflows](https://www.diagrid.io/dapr-university)
