@@ -6,26 +6,8 @@
 
 Sandbox project for collaboration on a modern, open data workflow architecture for data integrations.
 
-## 🚀 The benefits
-
-### 👨‍💻 DevEx (Developer Experience):
-- **Simplified Development**: Focus on business logic, not infrastructure.
-- **Polyglot Support**: Use multiple programming languages.
-- **Declarative Configuration**: Easier setup and maintenance.
-- **Built-in Resilience**: Automatic retries, timeouts, and circuit breakers.
-- **Standardized Infrastructure**: Uniformity across projects.
-
-### 🔮 Future-Proofing:
-- **Scalability**: Easily scale services.
-- **Interoperability**: Integrate with various technologies.
-- **Community Support**: Continuous improvements and rich ecosystem.
-- **Cloud-Native**: Seamless integration with modern cloud environments.
-
-### 🌟 End-User Benefits:
-- **Enhanced Performance**: Faster and more reliable applications.
-- **Improved Reliability**: Robust and less prone to downtime.
-- **Flexibility**: Wide range of functionalities.
-- **Security**: Service-to-service encryption and authentication.
+#### Workflow example
+<video src="https://dapr.io/images/1_automate.mp4"></video>
 
 ## Architecture is still being discussed / developed
 
