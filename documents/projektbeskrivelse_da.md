@@ -2,11 +2,10 @@
 
 ## Introduktion
 
-OS² oplever en stigende efterspørgsel på løsninger, der kan håndtere data og arbejdsgange omkring data på en effektiv og sikker måde. Ligeledes efterspørges der metoder og værktøjer der kan minimere risisci ved benyttelse af flere specialistleverandører. 
+OS² oplever en stigende efterspørgsel på løsninger, der kan håndtere data og arbejdsgange. De tekniske løsninger findes allerede men flere leverandører påpeger udfordringer med at tilbyde genbrug af moderne, distribuerede services til vores medlemmer, uden at omkostningerne stiger uforholdsmæssigt.
+Dette kan løses ved at indrage flere specialiserede leverandører i leverancerne, men der er usikkerhed om hvordan risisci minimeres når sådanne flerleverandør scenarier skal lykkes!
 
-Vi oplever også at leverandører påpeger udfordringer med at tilbyde moderne, distribuerede services til vores medlemmer, uden at omkostningerne stiger uforholdsmæssigt.
-
-Og det er sandt at der er en række risisci forbundet med at kaste sig ud i sådan et projekt og OS² vil med dette projekt tilbyde at mitigere disse for sine medlemmer og gå forrest med rådgivning om metoder til at komme i mål med transparente og effektive moderne løsninger.
+Det er sandt at der er en række risisci forbundet med at kaste sig ud i nye ukendte projekter og OS² tilbyder derfor at mgå forrest med rådgivning om metoder til at komme i mål med transparente og effektive moderne løsninger. På den måde kan risisci minimeres, selv i ukendt land, som moderne distribuerede open source løsninger med mange bidragydere.
 
 ## Rationale
 
