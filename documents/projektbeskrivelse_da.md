@@ -47,7 +47,10 @@ Følgende hovedoverskrifter beskriver forretningsmålene:
 Projektet starter med en simpel PoC der skal kunne leveres inden for 5 uger efter projektstart. PoCen afvikles i et seperat prototype miljø og vil indeholde et enkelt data-forløb for at bevise værdien og stabiliteten i løsningen.
 Der er indhentet tilbud på denne PoC.
 
-Efterfølgende kan projektet kan gennemføres i iterationer over en periode på 12 måneder, med milepæle hver tredje måned for at sikre, at vi er på rette spor og kan justere planen efter behov. Fokus vil være på produktionsmodning og skalerbarhed med flere dataforløb.
+Accepteres resultatet af PoCen laves der efterfølgende en ny leveranceplan for etablering af en produktionsklar løsning. 
+Denne produktmodning er ikke detailplanlagt men vil kunne foregå i iterationer over en periode på 12 måneder, med milepæle hver tredje måned for at sikre, at vi er på rette spor og kan justere planen efter behov. Fokus vil være på produktionsmodning og skalerbarhed med flere dataforløb.
+
+## Noter
 
 #### Risici i projekter
 
