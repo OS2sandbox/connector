@@ -1,10 +1,11 @@
 # 🔄 connector
 
 > [!IMPORTANT]
-> *This project is still in its early phases*
+> *This project is still in its early phases*.
+> 
 > *"connector" is a working title and is subject to change*
 
-A os2 sandbox project for collaboration on a modern, open data workflow architecture for data integrations and data workflows.
+An os2 sandbox project for collaboration on a modern, open data workflow architecture for data integrations and data workflows, based on upstream components.
 
 An early project description in danish is available here: [🇩🇰 Projektbeskrivelse på dansk](./documents/projektbeskrivelse_da.md)
 
