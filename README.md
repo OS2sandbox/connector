@@ -6,9 +6,6 @@
 
 Sandbox project for collaboration on a modern, open data workflow architecture for data integrations.
 
-#### Workflow example
-<video src="https://dapr.io/images/1_automate.mp4"></video>
-
 ## Architecture is still being discussed / developed
 
 Please refer to [this issue](https://github.com/OS2sandbox/connector/issues/7), for the current state and some work in progress diagrams.
