@@ -4,11 +4,12 @@
 
 **Med nuværende python/python library løsning skal udvikleren selv:**
 
-- Implementere anvendelse af certifikater, tokens og andre secrets på en korrekt og sikker måde i duplikeret kode i alle extractors.
-- Udvikle forbindelser, der kan "faile gracefully", og vedligeholde egne "retry" og "timeout" metoder til dataoverførsel, hvis endpointet fejler. Denne kode skal ligeledes duplikeres ud i alle extractors.
+- Implementere og vedligehold kode til anvendelse af certifikater, tokens og andre secrets på en korrekt og sikker måde i duplikeret i alle extractors.
+- Udvikle resiliente forbindelses metoder, der kan "faile gracefully", og vedligeholde egenudviklede "retry" og "timeout" metoder til dataoverførsel, hvis endpointet fejler. Denne kode skal ligeledes duplikeres og vedligeholdes i alle extractors.
 - Lave egne metoder til fejlhåndtering og logning af fejl og sikre, at hele systemet kan køre videre upåvirket.
 - Implementere og vedligeholde egne funktioner til overvågning og notifikationer om kørsels status og fejl.
 - Håndtere state management manuelt med egne funktioner, for at gemme og hente data fra filestores, databaser eller lign. for at sikre konsistens og robusthed.
+- Løbende vedligeholde eksternt benyttede afhængigheder anvendt til alle disse egenudviklede funktioner og sikre at de er kompatible med alle eksterne dataendpoints. 
 - Alt dette ekstra "infrastruktur" kode skal vedligeholdes, opdateres og holdes sikkert og robust.
 - Hvis der er ønsker om at skalere systemet f.eks med flere data-endpoints og services til at forbinde til disse, skal alt denne nye logik skrives i python og placeres inde i fleetoptimiser monolitten som designet er i dag.
 - Som systemet skaleres med flere endoints bliver disse manuelle vedligeholdelsesopgaver naturligvis drastisk forøget.
@@ -19,6 +20,7 @@
 - Udnytte Dapr's sprogagnostiske design, så opsætning af endpoints ikke kun er bundet til python og få fordel mange flere udviklere der kan bidrage og vedligeholde i andre udviklingssprog.
 - Få indbygget overvågning og tracing af kald på tværs af services, hvilket gør det lettere at identificere og løse problemer.
 - Få automatiseret state management, hvilket betyder, at Dapr kan håndtere gemning og hentning af data fra forskellige lagringssystemer (som filer og databaser) for udviklingsteamet. Dette sikrer, at data altid er konsistent og tilgængelig uden manuel indsats.
+- Effektivt begrænse omfanget af eksterne afhængigheder der skal 
 - Åbne for at integrationerne med andre data-services, er simple og robuste at integrere med minimalt vedligehold.
 - Få indbyggede værktøjer og metoder til at kunne modernisere systemet trinvist til en mere hændelsesdrevet, serviceorienteret og løskoblet arkitektur, der understøtter effektiv skalering inden for budget.
 
