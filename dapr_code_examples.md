@@ -95,24 +95,6 @@ def patch_trips(token: str, ids: list[int]):
         f"Request did not return 200 response, but {response.status_code} and response {response.content}"
     )
 
-def find_item_plate_list(plate: str, vehicles_list):
-    car = list(
-        filter(
-            lambda car: plate in car.get("name", "")
-            or plate in car.get("deviceType", ""),
-            vehicles_list,
-        )
-    )
-    if len(car) > 1:
-        ids = [a["id"] for a in car]
-        raise DuplicatePlateCleverTrack(
-            f"There were found multiple vehicles with the plate {plate}, ids: {ids}"
-        )
-    if car:
-        car = dict(car[0])
-    else:
-        car = {}
-    return car
 ```
 
 ## Eksempel på løskoblet kode

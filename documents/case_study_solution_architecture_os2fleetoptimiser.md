@@ -41,15 +41,14 @@ flowchart LR
 
 subgraph infra-services["Common language agnostic infrastructure services"]
     direction TB
-      Storage["💾 Storage <br> Service"]~~~
-      Messaging["📩 Messaging <br> Service"]
-      Integration["🔗 Service Integration"]~~~
-      Connector["🌐 External System Binding"]
-      Actors["🎭 Workflow Orchestration"]~~~
-      Workflow["🔄 Workflow Automation"]
-      Secrets["🔒 Secrets Management"]~~~
-      Config["⚙️ Configuration Service"]
-      ID["🛡️ Identity Management"]
+        State["💾 State Management for shor/long term date storage"]~~~
+        PUbSub["📩 Queues for Publish-Subscribe Messaging"]
+        Bindings["🌐 External Bindings"]~~~
+        Actors["🎭 Actor Model"]
+        Workflows["🔄 Workflow Automation"]
+        Secrets["🔒 Secrets Management for handling certificates, tokens etc."]~~~
+        Configuration["⚙️ Configuration API"]
+        Identity["🛡️ Identity Management"]
 end
 
 subgraph infra
