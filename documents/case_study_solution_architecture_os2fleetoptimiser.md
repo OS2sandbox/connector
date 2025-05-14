@@ -4,8 +4,8 @@
 
 **Med nuværende python/python library løsning skal udvikleren selv:**
 
-- Implementere og vedligeholde kode til anvendelse af certifikater, tokens og andre secrets på en korrekt og sikker måde duplikeret i alle extractors.
-- Udvikle resiliente forbindelses metoder, der kan "faile gracefully", og vedligeholde egenudviklede "retry" og "timeout" metoder til dataoverførsel, hvis endpointet fejler. Denne kode skal ligeledes duplikeres og vedligeholdes i alle extractors.
+- Implementere og vedligeholde kode til anvendelse af certifikater, tokens og andre secrets på en korrekt og sikker måde duplikeret i alle extractors eller alternativt at der oprettes og vedligeholdes egenudviklede utility classes eller helperclases til infrastruktur inde i produktets kildekode.
+- Udvikle resiliente forbindelses metoder, der kan "faile gracefully", og vedligeholde egenudviklede "retry" og "timeout" metoder til dataoverførsel, hvis endpointet fejler. Denne kode skal ligeledes duplikeres og vedligeholdes i alle extractors eller i nogle fælles utility clases.
 - Lave egne metoder til fejlhåndtering og logning af fejl og sikre, at hele systemet kan køre videre upåvirket.
 - Implementere og vedligeholde egne funktioner til overvågning og notifikationer om kørsels status og fejl.
 - Håndtere state management manuelt med egne funktioner, for at gemme og hente data fra filestores, databaser eller lign. for at sikre konsistens og robusthed.
