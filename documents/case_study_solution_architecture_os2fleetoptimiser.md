@@ -67,7 +67,7 @@ IDP2("Identity Provider 2") --> infra
 
 infra-.-infra-services
 
-DataProviderA(("Data Endpoint"))<-->Connector
+DataProviderA(("Data Endpoint"))<-->Bindings
 
 os2f("os2fleetoptimiser")<-->BL["Business Logic <br>+<br> Endpoint Configuration"]<-->infra-services
 
