@@ -1,4 +1,4 @@
-# Archietectral overview of business components
+# Architectural overview of business components
 
 ```mermaid
 ---
